@@ -1,0 +1,26 @@
+.form {
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.login__text {
+    font-family: 'Montserrat', sans-serif;
+}
+.login__button {
+  background: linear-gradient(
+    90deg,
+    rgb(7, 2, 86) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.login__button:hover{
+  background-color: #82C3EC;
+  background: -webkit-linear-gradient( 90deg,
+  rgba(2, 0, 36, 1) 0%,
+  rgba(9, 9, 121, 1) 35%,
+  rgba(0, 212, 255, 1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
